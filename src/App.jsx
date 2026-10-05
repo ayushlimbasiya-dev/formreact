@@ -89,7 +89,7 @@ function App() {
                   />
 
                   <button className="button" type="submit">
-                    Register
+                    Submit
                   </button>
                 </>
               }

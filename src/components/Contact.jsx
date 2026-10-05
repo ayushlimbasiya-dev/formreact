@@ -1,15 +1,15 @@
 import React from "react";
+import "./Contact.css"
 const Contact = () => {
     return (
         <div className="contact-container">
-            <h1 className="contact-title">Contact:</h1>
-            <input  type="number"  
+            <h1 className="contact-title">Contact</h1>
+            <input type="number"  className="input"
             placeholder="Enter contact number"
-            max={10}
             />
             <br></br>
-            <input type="text" 
-            placeholder="enter your email"
+            <input type="text" className="input"
+            placeholder="Enter your email"
             />
             <br></br>
             <button className="button" type="submit">
