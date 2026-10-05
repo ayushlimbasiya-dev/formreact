@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #667eea, #74ba0b);
+  padding: 20px;
+}
+
+.box {
+  width: 400px;
+  padding: 35px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-container {
+  position: relative;
+  padding: 10px;
+}
+
+.menu-button {
+  display: block;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.box h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.input {
+  width: 100%;
+  padding: 13px 15px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(10, 17, 52, 0.4);
+}
+.input:hover {
+  transform: translateY(-4px);
+  border-color: #45051e;
+}
+
+.button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(#667eea, #764ba2);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
